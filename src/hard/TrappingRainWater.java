@@ -52,6 +52,7 @@ public class TrappingRainWater {
 		return result;
 	}
 
+	//Time O(n) and Space O(1)
 	public static int trapUsingPointers(int[] height) {
 
 		if (height.length == 0)
